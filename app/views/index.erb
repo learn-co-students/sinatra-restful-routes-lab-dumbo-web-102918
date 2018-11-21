@@ -1,0 +1,15 @@
+<%@recipe.each do |r|%>
+  <hr>
+  <h5>
+    <a href="/recipes/<%=r.id%>">Recipe Name:
+      <%=r.name%></a>
+  </h5>
+  <hr>
+  <div style="background-color:lightblue">
+    <h5>Ingredients</h5>
+    <h3><%=r.ingredients%></h3>
+  </div>
+  <h5>Cook Time</h5>
+  <h4><%=r.cook_time%></h4>
+  <hr>
+<% end %>
