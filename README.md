@@ -5,7 +5,7 @@
 - Build RESTful routes to create, show, edit, and delete items from the
   database
 
-## Instructions
+## Instruc
 
 Instead of keeping all your recipes on index cards (just like your grandma
 did!), we're going to be building a web app to store those recipes for you!
